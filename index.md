@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Building The Longhand Archive
 ---
 
@@ -14,3 +14,9 @@ The [main site](https://longhandarchive.uk) will host the data and the intellige
 - [Approach](/approach/) — how the project operates and what it values
 - [Architecture](/architecture/) — the system at a glance
 - [Decisions](/decisions/) — the full trail of architectural decisions across all repositories
+
+**Posts**
+
+{% for post in site.posts %}
+- [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%-d %B %Y" }}
+{% endfor %}

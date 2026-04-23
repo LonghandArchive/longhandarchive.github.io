@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "The decision trail"
 date: 2026-04-23
 ---
