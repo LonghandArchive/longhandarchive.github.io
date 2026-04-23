@@ -1,0 +1,27 @@
+title: Building The Longhand Archive
+description: How a solo archival system gets built in public
+url: https://longhandarchive.github.io
+
+theme: minima
+
+author:
+  name: Andrew Allen
+  url: https://andrewallen.uk/
+
+permalink: /posts/:title/
+
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+      permalink: /:title/
+  - scope:
+      path: "_posts"
+    values:
+      layout: post
+
+header_pages:
+  - _pages/approach.md
+  - _pages/architecture.md
+  - _pages/decisions.md
