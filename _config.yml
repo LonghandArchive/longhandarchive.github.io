@@ -22,5 +22,9 @@ defaults:
       path: "_posts"
     values:
       layout: default
+  - scope:
+      path: "archive"
+    values:
+      layout: default
 
 show_downloads: false

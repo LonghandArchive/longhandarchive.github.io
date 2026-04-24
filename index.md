@@ -14,6 +14,7 @@ The [main site](https://longhandarchive.uk) will host the data and the intellige
 - [Approach](/approach/) — how the project operates and what it values
 - [Architecture](/architecture/) — the system at a glance
 - [Decisions](/decisions/) — the full trail of architectural decisions across all repositories
+- [Archive](/archive/) — historical plans and design archaeology
 
 **Posts**
 
